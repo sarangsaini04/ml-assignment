@@ -8,8 +8,8 @@ from sklearn.metrics import (accuracy_score, roc_auc_score, precision_score,
                              recall_score, f1_score, matthews_corrcoef,
                              confusion_matrix, classification_report)
 
-st.set_page_config(page_title="ML Classifier Dashboard", page_icon="📊", layout="wide")
-st.title("📊 Classification Model Evaluation Dashboard")
+st.set_page_config(page_title="Adult Income ML Classifier Dashboard", page_icon="📊", layout="wide")
+st.title("📊 Adult Income Classification Model Evaluation Dashboard")
 st.caption("Upload test data, pick a model, and inspect its performance. Models are pre-trained; no retraining happens here.")
 
 TARGET = "income"   # <- must match train_models.py
